@@ -11,7 +11,7 @@ public class HelloServiceApplication {
 
 	@GetMapping
 	public String home() {
-		return "Today is Harinath's Birthday.... Wishes to him. One more line i type here";
+		return "Today is Harinath's Birthday.... Wishes to him";
 	}
 	
 	public static void main(String[] args) {
