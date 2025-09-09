@@ -11,7 +11,7 @@ public class HelloServiceApplication {
 
 	@GetMapping
 	public String home() {
-		return "Welcome home. Now, we have improved our home";
+		return "Welcome home";
 	}
 	
 	public static void main(String[] args) {
